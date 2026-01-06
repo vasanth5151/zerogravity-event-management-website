@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/zgevent1.png"
 
 const Navbar = () => {
@@ -10,7 +11,13 @@ const Navbar = () => {
 
         {/* Logo */}
         <div className="flex items-center cursor-pointer">
-          <img src={logo} alt="logZero Gravity Logoo" className="h-10 sm:h-12 xl:h-16 w-auto object-cover  " />
+          <Link to="/">
+            <img
+              src={logo}
+              alt="Zero Gravity Logo"
+              className="h-14 sm:h-16 xl:h-20 w-auto object-contain"
+             />
+          </Link>
         </div>
 
         {/* Desktop Menu */}

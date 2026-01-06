@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
               reality, whether it's a wedding, birthday, or corporate event.
             </p>
 
-            <button className="font-poppins cursor-pointer bg-[#fb64b6] text-white px-8 py-3 text-sm uppercase tracking-wider hover:bg-[#fb64b6] transition">
+            <button className="font-poppins cursor-pointer bg-[#fb64b6] text-white px-8 py-3 text-sm uppercase tracking-wider hover:bg-[#fb64b6] transition rounded">
               Call Us Now
             </button>
           </div>

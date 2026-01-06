@@ -58,7 +58,7 @@ const Gallery = () => {
             celebration tailored just for you.
           </p>
 
-          <a href="#contact"><button className="font-poppins cursor-pointer bg-[#fb64b6] text-white px-8 py-3 text-sm uppercase tracking-wider hover:bg-[#fb64b6] transition">
+          <a href="#contact"><button className="font-poppins cursor-pointer bg-[#fb64b6] text-white px-8 py-3 text-sm uppercase tracking-wider hover:bg-[#fb64b6] transition rounded">
             Book Now
           </button></a>
         </div>

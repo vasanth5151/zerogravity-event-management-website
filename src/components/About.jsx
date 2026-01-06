@@ -37,7 +37,7 @@ const About = () => {
             reality, whether it's a wedding, birthday, or corporate event.
           </p>
 
-          <a href="#contact"><button className="font-poppins font-medium mt-6 bg-[#fb64b6] text-white px-6 py-3 cursor-pointer transition">
+          <a href="#contact"><button className="font-poppins font-medium mt-6 bg-[#fb64b6] text-white px-6 py-3 cursor-pointer transition rounded">
             Contact us
           </button></a>
         </div>
