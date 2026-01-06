@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/zgevent1.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -8,8 +9,8 @@ const Navbar = () => {
       <div className="flex justify-between items-center px-4 py-4 sm:px-12 lg:px-24 xl:px-40">
 
         {/* Logo */}
-        <div className="text-2xl text-pink-400 font-playfair font-medium cursor-pointer">
-          Zerogravity Events
+        <div className="flex items-center cursor-pointer">
+          <img src={logo} alt="logZero Gravity Logoo" className="h-10 sm:h-12 xl:h-16 w-auto object-cover  " />
         </div>
 
         {/* Desktop Menu */}

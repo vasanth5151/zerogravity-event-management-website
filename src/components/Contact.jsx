@@ -70,10 +70,10 @@ const Contact = () => {
                 placeholder="Your Message"
                 className="w-full border border-gray-300 px-4 py-3 focus:outline-none focus:border-[#fb64b6]"
               ></textarea>
-
+  
               <button
                 type="submit"
-                className="w-full bg-[#fb64b6] text-white py-3 uppercase tracking-wider hover:bg-[#fb64b6] transition"
+                className="w-full bg-[#fb64b6] text-white py-3 uppercase tracking-wider hover:bg-[#fb64b6] transition cursor-pointer"
               >
                 Submit
               </button>
