@@ -32,16 +32,16 @@ const Gallery = () => {
         </p>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-16 ">
           {images.map((img, index) => (
             <div
               key={index}
-              className="overflow-hidden group shadow-md"
+              className="overflow-hidden group shadow-md rounded-2xl"
             >
               <img
                 src={img}
                 alt="Wedding Gallery"
-                className="w-full h-[200px] object-cover transition-transform duration-500 group-hover:scale-110"
+                className="rounded-2xl w-full h-[200px] object-cover transition-transform duration-500 group-hover:scale-110"
               />
             </div>
           ))}

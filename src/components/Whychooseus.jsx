@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
             <img
               src={chooseImg}
               alt="Why Choose Us"
-              className="w-full h-[420px] object-cover shadow-lg"
+              className="w-full h-[420px] object-cover shadow-lg rounded-2xl"
             />
           </div>
 

@@ -22,11 +22,11 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           {/* Card 1 */}
-          <div className="relative group overflow-hidden shadow-lg">
+          <div className="relative group overflow-hidden shadow-lg rounded-2xl">
             <img
               src={wedding1}
               alt="Wedding Ceremony"
-              className="h-[380px] w-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="h-[380px] w-full object-cover transition-transform duration-500 group-hover:scale-110 rounded-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent flex flex-col justify-end items-start p-6">
               <h3 className="font-playfair text-white text-xl">
@@ -39,11 +39,11 @@ const Services = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="relative group overflow-hidden shadow-lg">
+          <div className="relative group overflow-hidden shadow-lg rounded-2xl">
             <img
               src={wedding2}
               alt="Mehndi Ceremony"
-              className="h-[380px] w-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="h-[380px] w-full object-cover transition-transform duration-500 group-hover:scale-110 rounded-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent flex flex-col justify-end items-start p-6">
               <h3 className="font-playfair text-white text-xl">
@@ -56,11 +56,11 @@ const Services = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="relative group overflow-hidden shadow-lg">
+          <div className="relative group overflow-hidden shadow-lg rounded-2xl">
             <img
               src={wedding3}
               alt="Reception"
-              className="h-[380px] w-full object-cover transition-transform duration-500 group-hover:scale-110"
+              className="h-[380px] w-full object-cover transition-transform duration-500 group-hover:scale-110 rounded-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent flex flex-col justify-end items-start p-6">
               <h3 className="font-playfair text-white text-xl">

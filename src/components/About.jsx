@@ -11,7 +11,7 @@ const About = () => {
             <img
               src={aboutImage}
               alt="About Golden Rangoli Events"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded"
             />
           </div>
         </div>
