@@ -31,9 +31,9 @@ const Navbar = () => {
 
         {/* Desktop CTA */}
         <div className="hidden md:block">
-          <button className="bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition font-medium font-poppins cursor-pointer">
-            Book an Event
-          </button>
+      
+          <a href="#contact" className="bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition font-medium font-poppins cursor-pointer">Book an Event</a>
+         
         </div>
 
         {/* Hamburger */}
@@ -54,9 +54,8 @@ const Navbar = () => {
           <a href="#gallery" className="block" onClick={() => setOpen(false)}>Gallery</a>
           <a href="#contact" className="block" onClick={() => setOpen(false)}>Contact</a>
 
-          <button className="w-full bg-pink-400 text-white py-2 rounded mt-4">
-            Book an Event
-          </button>
+          <a href="#contact" className="bg-pink-400 text-white px-4 py-2 rounded hover:bg-pink-500 transition font-medium font-poppins cursor-pointer">Book an Event</a>
+           
         </div>
       )}
     </header>
